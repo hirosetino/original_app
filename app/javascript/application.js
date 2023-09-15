@@ -6,4 +6,3 @@ import "controllers"
 //= require turbolinks
 //= require_tree . #require_treeより上にjquery、jquery_ujsを書くこと
 //= require activestorage
-import 'swiper'
