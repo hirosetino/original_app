@@ -2,6 +2,29 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     background-color: #F3F3F3;
 }
+
+/* コンテナー */
+.swiper-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+  /* スライダーのwrapper */
+  .infinite-slider .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+  
+  /* スライド */
+  .infinite-slider .swiper-slide {
+    height: 320px !important; /* 高さを指定 */
+    width: auto !important;
+  }
+  
+  /* スライド内の画像 */
+  .infinite-slider .swiper-slide img {
+    width: auto;
+    height: 100%;
+  }

@@ -1,5 +1,17 @@
 <%= render "shared/header" %>
 
-<body>
-
-</body>
+<main>
+    <div class="main-container">
+        <div class="swiper-container">
+            <div class="swiper infinite-slider">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><%= image_tag 'test_2.jpeg' %></div>
+                <div class="swiper-slide"><%= image_tag 'test_image.jpeg' %></div>
+                <div class="swiper-slide"><%= image_tag 'test1.png' %></div>
+                <div class="swiper-slide"><%= image_tag 'test2.png' %></div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
