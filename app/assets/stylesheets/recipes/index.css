@@ -17,6 +17,7 @@ body {
     .main-top {
         background-image: url('background.jpg');
         background-size: cover;
+        margin-top: 1px;
         padding: 20px 0;
     }
 
