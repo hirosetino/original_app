@@ -1,30 +1,52 @@
 * {
     box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rampart One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-main {
+body {
     background-color: #F3F3F3;
 }
 
-/* コンテナー */
-.swiper-container {
-    max-width: 900px;
-    margin: 0 auto;
-}
-  
-  /* スライダーのwrapper */
-  .infinite-slider .swiper-wrapper {
-    transition-timing-function: linear;
-  }
-  
-  /* スライド */
-  .infinite-slider .swiper-slide {
-    height: 320px !important; /* 高さを指定 */
-    width: auto !important;
-  }
-  
-  /* スライド内の画像 */
-  .infinite-slider .swiper-slide img {
-    width: auto;
-    height: 100%;
-  }
+    .main-top {
+        background-image: url('background.jpg');
+        background-size: cover;
+        padding: 20px 0;
+    }
+
+        .main-top-text {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #635F5B;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .swiper-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        
+            .infinite-slider .swiper-wrapper {
+                transition-timing-function: linear;
+            }
+            
+            
+            .infinite-slider .swiper-slide {
+                height: 320px !important;
+                width: auto !important;
+            }
+            
+            
+            .infinite-slider .swiper-slide img {
+                width: auto;
+                height: 100%;
+            }
