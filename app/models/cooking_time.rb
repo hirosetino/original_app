@@ -8,4 +8,7 @@ class Genre < ActiveHash::Base
       { id: 6, name: '1時間30分' },
       { id: 7, name: '2時間以上' }
     ]
+
+    include ActiveHash::Associations
+    has_many :recipes
 end
