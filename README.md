@@ -13,7 +13,7 @@
 - has_many :recipes
 
 
-## items テーブル
+## recipes テーブル
 
 | Column          | Type       | Option                         |
 | --------------- | ---------- | ------------------------------ |
