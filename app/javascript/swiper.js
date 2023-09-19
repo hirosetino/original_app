@@ -9,4 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
             disableOnInteraction: false,
         },
     });
+    window.addEventListener('popstate', function() {
+        location.reload();
+    });
 });
