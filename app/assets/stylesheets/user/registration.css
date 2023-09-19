@@ -75,3 +75,16 @@
             color: white;
             font-weight: bold;
         }
+
+    .move-to-login {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+        .move-to-login-text {
+            font-size: 14px;
+        }
+
+        .login-btn {
+            color: orange;
+        }
