@@ -26,12 +26,12 @@
     }
 
         .form-text {
-            margin-right: 10px;
             font-size: 14px;
             font-weight: bold;
         }
 
         .indispensable {
+            margin-left: 10px;
             font-size: 14px;
             font-weight: bold;
         }
@@ -74,4 +74,17 @@
             border-radius: 20px;
             color: white;
             font-weight: bold;
+        }
+
+    .move-to-login {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+        .move-to-login-text {
+            font-size: 14px;
+        }
+
+        .login-btn {
+            color: orange;
         }

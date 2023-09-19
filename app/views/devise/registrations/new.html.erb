@@ -4,7 +4,7 @@
 
 <div class="registration-container">
     <div class="registration-top">
-        <h1>アカウント情報入力</h1>
+        <h1>アカウント作成</h1>
     </div>
 
     <div class="form-group">
@@ -44,6 +44,9 @@
 
     <div class='account-create'>
         <%= f.submit "アカウント作成" , class:"account-create-btn" %>
+    </div>
+    <div class="move-to-login">
+        <p class="move-to-login-text">すでにアカウントをお持ちの方は<%= link_to 'こちら', new_user_session_path, class: "login-btn" %></p>
     </div>
 </div>
 

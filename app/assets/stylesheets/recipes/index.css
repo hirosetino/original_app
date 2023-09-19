@@ -5,6 +5,8 @@ body {
     .main-top {
         background-image: url('background.jpg');
         background-size: cover;
+        /*background-color: #ffc06d;*/
+        height: 450px;
         margin-top: 1px;
         padding: 20px 0;
     }
@@ -19,7 +21,7 @@ body {
         }
 
         .swiper-container {
-            max-width: 900px;
+            max-width: 1440px;
             margin: 0 auto;
         }
         
