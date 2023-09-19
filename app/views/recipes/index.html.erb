@@ -17,6 +17,27 @@
                 </div>
             </div>
         </div>
+
+        <div class="main-area">
+            <div class="recipes-area">
+                <div class="recipes-list-text">
+                    <h2>レシピ一覧</h2>
+                </div>
+                <ul class="recipe-lists">
+                    <% @recipes.each do |recipe| %>
+                        <li class="recipe-list">
+                            <div class="image-content">
+                                <%= image_tag recipe.image, class: "recipe-image" %>
+                            </div>
+                            <div class="recipe-texts">
+                                <p class="recipe-name"><%= recipe.name %></p>
+                                <p class="cooking-time">調理時間目安：<%= recipe.cooking_time[:name] %></p>
+                            </div>
+                        </li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
     </div>
 </main>
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
